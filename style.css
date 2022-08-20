@@ -16,32 +16,28 @@ header,main,footer {
 
 header {
   padding-top: 65px;
+  align-items: center;
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+ 
   margin-bottom: 15px;
-  width: 50%;
-  justify-content: space-between;
+  width: 300px;
+
 }
 
 ul {
   display: flex;
-  list-style: none;
-  justify-content: flex-end;
-  margin: 0;
-  padding: 0;
-}
-ul li+li {
-  margin-left: 20px;
+  justify-content: space-around;
+  list-style: none; 
 }
 
 a {
   color: #1f1534;
   text-decoration: none;
 }
+
+
 
 ul li a {
     opacity: 0.5;
@@ -62,14 +58,23 @@ h1 {
   line-height: 56px;
   color: #1f1534;
 
-  font-weight: normal;
+  font-weight: 400;
 
-  width: 490px;
+  width: 100%;
 }
 
 h1 span {
   color: #89c5cc;
   font-weight: bold;
+}
+
+section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 40%;
+
 }
 
 section p {
@@ -80,20 +85,23 @@ section p {
   margin: 40px 0;
 }
 
+
+
 button {
   color: white;
   font-family: "Open Sans", sans-serif;
-
   background: #69B99D;
+
   border: 0;
-  padding: 0 50px 30px;
+  padding: 14px 32px 15px;
+  gap: 10px;
 
   display: flex;
   justify-content: space-around;
-  gap: 50px;
+  align-items: center;
+  
 
   border-radius: 4px;
-
   cursor: pointer;
 }
 
@@ -104,6 +112,8 @@ button:hover {
 footer {
   font-size: 14px;
   line-height: 28px;
+  display: flex;
+  justify-content: center;
 
   text-align: center;
 

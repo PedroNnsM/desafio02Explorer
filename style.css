@@ -129,3 +129,22 @@ footer a {
     bottom: 0;
     right: 0;
 }
+
+@media (max-width: 768px) {
+
+  
+  section {
+    width: 100%;
+    display:block;
+  }
+  main{
+    flex-wrap: wrap;
+  }
+  
+  #balls{
+    position: absolute;
+    bottom: -430px;
+    right: -65px;
+    
+  }
+}
